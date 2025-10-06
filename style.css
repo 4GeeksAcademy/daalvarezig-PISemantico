@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+main {
+    padding: 1rem;
+}
+article {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0.5 rem;
+    background-color: white;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.header-infouser {
+    place-items: center;
+    line-height: 0rem;
+}
+.icon-interaction, .header-infouser {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+h1 {
+    padding-right: 350px;
+}
+footer {
+    padding: 1rem;
+    font-size: 20px;
+}
+.icon-interaction {
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.fa-heart:hover {
+   transform: scale(1.4);
+   color: red;
+}
+.fa-comment:hover {
+   transform: scale(1.4);
+   color: rgb(17, 235, 32);
+}
+.fa-paper-plane:hover {
+   transform: scale(1.4);
+   color: rgb(0, 221, 255)
+}
