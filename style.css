@@ -1,11 +1,9 @@
 body {
-    background-color: black;
+    background-color:black; 
 }
-main {
-    padding: 1rem;
-}
+
 article {
-    max-width: 500px;
+    max-width: 550px;
     margin: 0 auto;
     padding: 0.5 rem;
     background-color: white;
@@ -13,16 +11,14 @@ article {
 img {
     width: 100%;
     height: auto;
+    margin-bottom: 20px;
 }
-.header-infouser {
-    place-items: center;
-    line-height: 0rem;
-}
-.icon-interaction, .header-infouser {
+.icon-interaction, .header-infouser  {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    line-height: 0;
 }
 h1 {
     padding-right: 350px;
